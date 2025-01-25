@@ -48,6 +48,6 @@ func handleRequests() {
 }
 
 func main() {
-	fmt.Printf("JWT part started...")
+	fmt.Println("JWT token generation started...")
 	handleRequests()
 }
